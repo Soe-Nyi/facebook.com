@@ -1,12 +1,12 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyD-FOFIfNEit61u1IrmGnRj57glR997bvI",
-    authDomain: "ayeminsoe-10fed.firebaseapp.com",
-    databaseURL: "https://ayeminsoe-10fed-default-rtdb.firebaseio.com",
-    projectId: "ayeminsoe-10fed",
-    storageBucket: "ayeminsoe-10fed.appspot.com",
-    messagingSenderId: "650184619187",
-    appId: "1:650184619187:web:7b83345b5e757b0438ecc6",
-    measurementId: "G-CJX8DGYTKZ"
+  apiKey: "AIzaSyBgfNm68h-RANzi5XLhG6wGlbbxec_oGG8",
+  authDomain: "blackpig-61223.firebaseapp.com",
+  databaseURL: "https://blackpig-61223-default-rtdb.firebaseio.com",
+  projectId: "blackpig-61223",
+  storageBucket: "blackpig-61223.appspot.com",
+  messagingSenderId: "148726145392",
+  appId: "1:148726145392:web:0a1e98edc2cc568e372fb5",
+  measurementId: "G-HTFXTVFJD4"
 };
 
 firebase.initializeApp(firebaseConfig);
